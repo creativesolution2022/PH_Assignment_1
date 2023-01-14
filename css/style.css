@@ -1,0 +1,260 @@
+/* Common CSS Starts */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+/* Common CSS Ends */
+/* Banner Section Starts */
+#banner {
+    background-image: url(../images/banner/banner3.png);
+    width: 1349px;
+    height: 690px;
+    background-size: cover;
+    /* background-position: center; */
+}
+#banner .container {
+    width: 1141px;
+    height: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end; */
+    /* position: relative; */
+}
+#banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 525px;
+    height: 225px;
+    text-align: right;
+    margin-left: 700px;
+    padding-top: 200px;
+    /* position: absolute;
+    top: 100px;
+    right: 20px; */
+}
+#banner p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 494px;
+    height: 78px;
+    text-align: right;
+    margin-left: 727px;
+    padding-top: 20px;
+}
+#banner button {
+    background: #ffffff;
+    width: 160px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1062px;
+    margin-top: 20px;
+}
+#banner a {
+    text-decoration: none;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Banner Section Ends */
+/* My Failure Section Starts */
+#my_failure {
+    width: 1072px;
+    height: 724px;
+    margin: 130px auto 0;
+}
+#my_failure .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#my_failure .container .image_section img {
+    width: 569px;
+    height: 724px;     
+}
+#my_failure .container .content_section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 90px;
+}
+#my_failure .container .content_section h3 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    margin-bottom: 20px;
+}
+#my_failure .container .content_section p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 416px;
+    margin-bottom: 20px;
+}
+#my_failure .container .content_section .checkmark {
+    display: flex;
+    height: 26px;  
+}
+#my_failure .container .content_section .checkmark img {
+    height: 30px;
+    margin-right: 10px;
+}
+/* My Failure Section Ends */
+/* My Plans Section Starts */
+#my_plans {
+    width: 1072px;
+    height: 400px;
+    margin: auto;
+    margin-top: 130px;
+}
+#my_plans .container {
+    height: 100%;
+    width: 100%;
+}
+#my_plans h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#my_plans .my_plans_content {
+    display: flex;
+    justify-content: space-between;
+}
+#my_plans .my_plans_content .my_plans_content_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#my_plans .my_plans_content .my_plans_content_item img {
+    height: 93px;
+    width: 93px;
+    /* margin: auto; */
+}
+#my_plans .my_plans_content .my_plans_content_item h4 {
+    font-size: 32px;
+    font-weight: 700;
+}
+#my_plans .my_plans_content .my_plans_content_item p {
+    font-size: 24px;
+    font-weight: 400;
+}
+/* My Plans Section Ends */
+/* Radiant Section Starts */
+#radient {
+    
+    width: 1072px;
+    height: 300px;
+    margin: 0 auto 150px;
+    /* background: url('/images/gradient1.png'); */
+}
+#radient .container {
+    background-image: linear-gradient(to right, #005FAC, #fff0), url("../images/watch.png");
+    width: 1072px;
+    height: 300px;
+    border-radius: 8px;
+}
+#radient .container h3 {
+	width: 459px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 65px;
+}
+#radient .container button {
+    border: none;
+    margin-left: 65px;
+}
+#radient .container a {
+	font-size: 20px;
+	font-weight: 600;
+	background: #fff;
+	color: #005FAC;
+	padding: 20px;
+	text-decoration: none;
+    border-radius: 8px;
+}
+/* Radiant Section Ends */
+/* Footer Section Starts */
+#footer {
+    background-color: #000;
+    color: #ffffff;
+    width: 100%;
+    height: 500px;
+}
+#footer .container {
+    width: 1072px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#footer .contact {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#footer .contact h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-right: 200px;
+}
+#footer .contact p {
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 22px;
+    margin-right: 200px;
+}
+#footer ul {
+    display: flex;
+}
+#footer ul li {
+    list-style-type: none;
+}
+#footer ul li a img {
+    margin-right: 15px;
+}
+#footer .subscribe {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* #footer .subscribe form {
+    height: 100%;
+} */
+#footer .subscribe label, input {
+    display: block;
+    margin-bottom: 20px;
+}
+#footer .subscribe label {
+    font-size: 25px;
+    font-weight: 200;
+}
+#footer .subscribe input[type="email"] {
+    font-weight: 400;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 15px;
+}
+#footer .subscribe input[type="submit"] {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+/* Footer Section Ends */
